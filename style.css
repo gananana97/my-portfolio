@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2;
+    background-color: black;
+    margin: 0;
+}
+
+.main-header {
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    text-align: right;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item {
+    flex: 1 1 auto;
+    margin: 20px;
+}
+
+.section {
+    background-color: rgb(247, 234, 5);
+    border: 10px solid black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.section header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.section p {
+    margin-top: 15px;
+}
+
+.Menu {
+    display: flex;
+}
+
+.about-me {
+    background: rgb(247, 234, 5);
+}
+
+
+.work {
+    width: auto;
+    border: 8px solid rgb(247, 234, 5);
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    width: auto;
+}
+
+.work header {
+    color: #fff;
+}
+
+.bigger-work {
+    width: auto;
+    border: 8px solid rgb(247, 234, 5);
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.header {
+    padding: 40px;
+    text-align: left;
+    background: rgb(247, 234, 5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    padding: 40px;
+    text-align: center;
+    font: bolder;
+    font-size: large;
+    background: rgb(247, 234, 5);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 9px solid black;
+  }
+
+.bigger-image {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: auto;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-details h3 {
+    margin: 10px 10px;
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+}
+
+@media screen and (min-width: 801px) {
+}
