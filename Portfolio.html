@@ -1,85 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Coding Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">    
+    <title>Portolio</title>
 </head>
-
 <body>
-    <header class="main-header">
-        <div class="photo">
-            <img src="./Assets/Images/portfolio-photo.jpg" alt="Photo of the author">
-        </div>
+    <header id="header">
+        <div id="header-title">
             <h1>Ganaendra Ravindra</h1>
-
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact:</a></li>
-            </ul>
+        </div>
+        <nav id="header-nav">
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact Me</a>
         </nav>
-        </header>
-    <div class="container">
-        <main>
-            <section id="about-me" class="About-Me">
-                <header class="bigger-font" style="font-weight: bold; font-size: larger; text-decoration: underline;">About Me</header>    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda adipisci molestiae voluptas repellendus reiciendis aliquam ut culpa quasi accusantium natus expedita ullam perspiciatis, minus quas velit non nostrum repellat recusandae et aspernatur optio qui, dolores nesciunt mollitia! Perferendis voluptatibus eligendi ab expedita magni exercitationem! Adipisci ipsam veniam deserunt facere numquam.</p>
-            </section>
-
-            <section id="work" class="work">
-                <header class="bigger-font" style="font-weight: bold; font-size: larger; text-decoration: underline;">Work</header>
-                <div id="first-project" class="bigger-work">
-                    <a href="https://github.com/gananana97/Aoda-Standards" target="_blank">
-                        <img src="./Assets/Images/pastwork.jpg" alt="My first completed project" class="bigger-image">
-                    </a>
-                        <header>My First Project</header>
-                        <p>The path to success blossoms from the first seeds</p>
-                </div>
-                <div id="under-development-projects">
-                    <img src="stock 1.jpg" alt="Projects Currently Under Development">
-                    <header>Under Development</header>
-                    <p>Current focus</p>
-                </div>
-                
-                <div id="future-projects">
-                    <img src="stock 2.jpg" alt="Projects For The Future">
-                    <header>Coming Soon</header>
-                    <p>Future Projects</p>
-                </div>
-            
-                <div id="html-projects">
-                    <img src="stock 3.jpg"  alt="HTML Work">
-                    <header>HTML</header>
-                    <p>Writing code from the foundation</p>
-                </div>
-            
-                <div id="css-projects">
-                    <img src="" alt="CSS Work">
-                    <header>CSS</header>
-                    <p>Personalizing the experience</p>
-                </div>
-            
-                <div id="javascript-projects">
-                    <img src="" alt="JavaScript Work">
-                    <header>JavaScript</header>
-                    <p>Adding some emotion</p>
-                </div>
-        </main>
-        <footer id="contact">
-                <div class="contact-header" >
-                    <header class="bigger-font" style="font-weight: bold; font-size: larger; text-decoration: underline;">Contact Me:</header>
-                    <div class="contact-details">
-                        <h3>Ganaendra@website.com</h3>
-                        <h3>555-555-5555</h3>
-                        <h3>GitHub</h3>
-                        <h3>LinkedIn</h3>
-                        <h3>Resume Available Upon Request</h3>
+    </header>
+    <section class="hero-image">
+        <h2 class="hero-text">MY PORTFOLIO</h2>
+    </section>
+    <main>
+        <div id="about-me">
+            <h2>About Me</h2>
+            <p class="about-me-content">
+            My name's Ganaendra! I'm a web developer from Canada. I love all things creative. See my work below:
+            </p>
+        </div>     
+        <div id="work">
+            <h2>Work</h2>
+            <div class="card-holder">
+                <a class="study-guide" href="path/to/your-page.html">
+                    <div class="card">
+                        <img src="stock 1.jpg" alt="Study Guide Randomizer Project" class="card-image">
+                        <div class="card-title">
+                            <h3>Study Guide Randomizer</h3>
+                        </div>
                     </div>
+                </a>
+            </div>
+            
+                        </div>
+                    </a>    
+                    <a class="card-2" href="stock 2.jpg">
+                        <div class="card-title">
+                            <h3>Project 2</h3>
+                        </div>
+                    </a>    
+                    <a class= "card-3" href="stock 3.jpg">
+                        <div class="card-title">
+                            <h3>Project 3</h3>
+                        </div>
+                    </a>
+                    <a class="card-4" href="#">   
+                        <div class="card-title">
+                            <h3>Project 4</h3>
+                        </div>
+                    </a>  
+            
+                    <a class="card-5" href="#"> 
+                        <div class="card-title">
+                            <h3>Project 5</h3>
+                        </div>
+                    </a>   
+                
                 </div>
-        </footer>
-    </div>
+        </div>    
+        <div id="contact-me">
+            <h2>Contact Me</h2>
+            <nav class="contact-me-content">
+                <a href="#"> (000)000-0000</a>
+                <a href="mailto:Ganaendra@gmail.com">Ganaendra@gmail.com</a>
+                <a href="https://github.com/gananana97">Github</a>
+            </nav>
+        </div>                   
+    </main>
 </body>
 </html>
